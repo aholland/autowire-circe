@@ -59,7 +59,7 @@ lazy val client = (project in file("client")).settings(
  skip in packageJSDependencies := false,
  jsDependencies += "org.webjars" % "log4javascript" % "1.4.13-1" / "js/log4javascript_uncompressed.js" minified "js/log4javascript.js",
  libraryDependencies ++= Seq(
-  "org.scala-js" %%% "scalajs-dom" % "0.9.2-SNAPSHOT",
+  "org.scala-js" %%% "scalajs-dom" % "0.9.1",
   "be.doeraene" %%% "scalajs-jquery" % "0.9.1",
   "org.scala-js" %%% "scalajs-java-time" % "0.2.0",
   // test
