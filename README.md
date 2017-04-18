@@ -21,4 +21,4 @@ The uPickle bug which motivated the shift to Circe: https://github.com/lihaoyi/u
 
 Pull Requests welcome.
 
-**NOTE:** Circe will in some situations fail to dencode optional parameters correctly. The work-around is to put them in a "Holder" case class. More details here: https://github.com/aholland/circe-option-problem
+**NOTE:** Circe will in some situations fail to decode optional parameters correctly. The work-around is to put them in a "Holder" case class. More details here: https://github.com/aholland/circe-option-problem
